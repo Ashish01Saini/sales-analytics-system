@@ -3,6 +3,7 @@
 # This file is responsible for connecting
 # our sales system with the DummyJSON product API
 # =====================================
+# Handle fetching and mapping product data from external API
 
 import requests
 
