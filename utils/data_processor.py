@@ -419,7 +419,7 @@ def enrich_sales_data(transactions, product_mapping):
     return enriched
 
 import datetime
-
+# Generate formatted sales analytics report for business users
 def generate_sales_report(transactions, enriched_transactions, output_file="output/sales_report.txt"):
     """
     This function generates a complete
