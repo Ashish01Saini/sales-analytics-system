@@ -2,6 +2,7 @@
 # PART 1: PARSING AND CLEANING
 # Task 1.2
 # =====================================
+# Parse raw sales data and clean invalid or corrupted records
 
 def parse_and_clean_data(raw_lines):
     """
