@@ -26,6 +26,8 @@ def parse_and_clean_data(raw_lines):
         # unpack all columns
         transaction_id, date, product_id, product_name, quantity, unit_price, customer_id, region = parts
 
+        # Apply validation rules for transaction ID, product ID and numeric fields
+
         # Product ID must start with 'P'
         if not product_id.startswith("P"):
             invalid_count += 1
