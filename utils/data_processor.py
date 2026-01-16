@@ -87,6 +87,7 @@ def parse_and_clean_data(raw_lines):
 # PART 1: VALIDATION AND FILTERING
 # Task 1.3
 # =====================================
+# Allow optional filtering of sales data based on region
 
 def validate_and_filter_sales(cleaned_data):
     """
