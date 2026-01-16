@@ -1,7 +1,7 @@
 # =========================================
 # SALES ANALYTICS SYSTEM - MAIN APPLICATION
 # =========================================
-
+# Main workflow coordinating data processing, analysis and reporting
 from utils.file_handler import read_sales_data
 from utils.data_processor import (
     parse_and_clean_data,
