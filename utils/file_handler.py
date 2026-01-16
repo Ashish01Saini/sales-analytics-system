@@ -1,3 +1,5 @@
+# This module handles reading the sales data file with multiple encodings
+
 def read_sales_data(filename):
     encodings = ['utf-8', 'latin-1', 'cp1252']
 
