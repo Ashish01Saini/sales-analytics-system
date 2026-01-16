@@ -141,6 +141,7 @@ def validate_and_filter_sales(cleaned_data):
 # This section contains all business level analytics
 # like revenue, region performance, product sales etc.
 # =====================================
+# Sales analytics functions for revenue, trends and performance analysis
 
 def calculate_total_revenue(transactions):
     """
