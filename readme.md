@@ -1,3 +1,5 @@
+Project initialized with basic folder structure
+
 # Sales Analytics System  
 Module 3 – Python Programming Assignment  
 
