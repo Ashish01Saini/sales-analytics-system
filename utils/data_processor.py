@@ -373,6 +373,8 @@ def low_performing_products(transactions, threshold=10):
 # =====================================
 # PART 3: API DATA ENRICHMENT
 # =====================================
+# Enrich cleaned sales data using external API product information
+
 def enrich_sales_data(transactions, product_mapping):
     """
     This function enriches internal sales data
